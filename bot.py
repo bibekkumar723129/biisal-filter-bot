@@ -40,7 +40,7 @@ class Bot(Client):
         temp.B_LINK = me.mention
         self.username = '@' + me.username
         self.loop.create_task(check_expired_premium(self))
-        print(f"{me.first_name} is started now ❤️")
+        print(f"{me.first_name} is started now ❤️/n updated by bibek")
         tz = pytz.timezone('Asia/Kolkata')
         today = date.today()
         now = datetime.datetime.now(tz)
